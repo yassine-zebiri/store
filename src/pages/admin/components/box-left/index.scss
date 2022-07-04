@@ -1,0 +1,152 @@
+
+
+
+div::-webkit-scrollbar {
+    width: 7.5px;
+    height: 0;
+}
+div::-webkit-scrollbar-track {
+   // box-shadow: inset 0 0 5px rgb(211, 205, 205); 
+    border-radius: 5px;
+    background: #2b3445;
+}
+div::-webkit-scrollbar-thumb {
+    background: #cacaca;
+    border-radius: 5px;
+    height: 10vh;
+}
+div::-webkit-scrollbar-thumb:hover {
+    background: #556bb398;
+}
+.admin-list-arrow-activie{
+    transform: rotate(180deg);
+}
+.admin-boxleft-close{
+    background: linear-gradient(10deg, #142630 ,#28425f,#2B3445);
+
+    width: 70px;
+    height: 100vh;
+    position: fixed;
+    z-index: 13;
+    //background-color: #2b3445;
+    overflow: auto;
+    transition: all 0.2s ease 0s;
+    color: white;
+    text-align: center;
+    & .admin-logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        color: white;
+        & button{
+            color: white;
+        }
+    }
+    & .admin-list{
+        padding: 1rem 0;
+        & .admin-list-p{
+            display: none;
+        }
+    
+    & .admin-list-item{
+        text-align: center;
+        margin: 0.55rem 0;
+        & div{
+            background: transparent;
+        }
+        & .css-15v22id-MuiAccordionDetails-root{
+            display: none;
+        }
+        
+        button{
+            color: white;
+            background: transparent;
+            width: 100%;
+            & .MuiAccordionSummary-expandIconWrapper{
+                display: none;
+            }
+            & .MuiAccordionSummary-content{
+                justify-content: center;
+            }
+            & .MuiButton-startIcon{
+                margin: 0;
+            }
+            & .admin-list-icon{
+                font-size: 1rem;
+            }
+            & .admin-list-title{
+                display: none;
+            }
+        }
+        }
+        }
+}
+.admin-boxleft-open{
+    background: linear-gradient(10deg, #142630 ,#28425f,#2B3445);
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    z-index: 13;
+    background-color: #2b3445;
+    overflow: auto;
+    transition: all 0.2s ease 0s;
+    
+    & .admin-logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        color: white;
+        & button{
+            color: white;
+        }
+    }
+    & .admin-list{
+        padding: 1rem;
+        p{
+            color: white;
+            font-size: 16px;
+
+        }
+        & .admin-list-icon{
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+        & .admin-list-icon-btn{
+            margin: 0 10px;
+            font-size: 1.15rem;
+        }
+        & .admin-list-item{
+            color: white;
+            margin: 5px 0;
+            button{
+                width: 100%;
+                justify-content: flex-start;
+                color: white;
+                .css-i4bv87-MuiSvgIcon-root{
+                    color: aqua;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+                background-color: transparent;
+                color: white;
+            }
+            .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+                padding: 0;
+            }
+            .css-o4b71y-MuiAccordionSummary-content.Mui-expanded{
+                margin: 0;
+            }
+            .css-o4b71y-MuiAccordionSummary-content{
+                margin: 0;
+            }
+            .css-15v22id-MuiAccordionDetails-root{
+                padding:0 0 0 1rem ;
+            }
+        }
+    }
+}

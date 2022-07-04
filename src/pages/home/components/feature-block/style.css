@@ -1,0 +1,54 @@
+.feature{
+    display: flex;
+    background-color: #fff;
+    border-radius: 7.5px;
+    padding: 1rem 0rem;
+    margin-top: 1.5rem;
+    }
+    .feature .feature-box{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    padding: 0rem;
+    border-left: 1px solid #636363;
+    }
+    .feature .feature-box:last-child{
+    border-left: none;
+    }
+    
+    
+    .feature-text{
+    letter-spacing: 0.5px;
+    font-family: "Poppins", sans-serif;
+    }
+    .feature-text .feature-title{
+    font-size: 19px;
+    font-weight: 600;
+    }
+    .feature-text .feature-subtitle{
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;;
+    }
+    
+    
+    .feature-icon{
+    margin: 0 .75rem;
+    background: url(/public/img/shipping_icon.png) no-repeat scroll 0 0;
+    width: 60px;
+    height: 50px;
+    
+    }
+    .feature-icon-1{
+    background-position: 0 -55px;
+    }
+    .feature-icon-2{
+    background-position: 0 -184px;
+    }
+    .feature-icon-3{
+    background-position: 0 -310px;
+    }
+    .feature-icon-4{
+    background-position: 0 -445px;
+    }
+    

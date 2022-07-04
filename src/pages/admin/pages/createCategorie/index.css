@@ -1,0 +1,27 @@
+.admin-addCategorie-form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.admin-addCategorie-form form {
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  border: 1px rgba(121, 117, 117, 0.86) solid;
+  border-radius: 6px;
+  padding: 1rem 2rem;
+}
+
+.admin-addCategorie-form form .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+
+.admin-addCategorie-form form .admin-addCategorie-form-sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+/*# sourceMappingURL=index.css.map */

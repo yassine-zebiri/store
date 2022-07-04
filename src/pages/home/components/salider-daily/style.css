@@ -1,0 +1,111 @@
+.card-D{
+    width: 100%;
+    border: 1px solid rgb(199 199 199 / 35%);
+    display: flex;
+    direction: rtl;
+    }
+    .card-D:hover .card-D-1 img{
+    opacity: 0.5;
+    }
+    .card-D-1{
+    background: #9d9d9d none repeat scroll 0 0;
+    width: 55%;
+    height: 100%;
+    }
+    .card-D-1 img{
+    width: 100%;
+    -webkit-transition: all 0.6s ease 0s;
+    
+    }
+    .card-D-2{
+    width: 65%;
+    height: 100%;
+    padding: 1rem 1.5rem;
+    }
+    .card-D-2-T{
+    display: flex;
+    }
+    /*
+    .card-D-2-T div{
+    width: 20px;
+    background-color: red;
+    margin: 0 1rem;
+    }*/
+    .card-D-2-T-C{
+    display: flex;
+    align-items: center;
+    direction: ltr;
+    float: right;
+    }
+    .card-D-2-T-C .c1{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    margin:5px 0.25rem;
+    border: 1px solid rgb(61, 109, 214);
+    }
+    .card-D-2-T-C .c1 p{
+    margin-top: -0.75rem;
+    font-size: 14px;
+    }
+    .card-D-2-T-C .c2{
+    font-size: 30px;
+    }
+    .card-D-2-title{
+    font-size: 17px;
+    color: #1f1f2f;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease 0s;
+    }
+    .card-D:hover .card-D-2-title{
+    color: rgb(61, 109, 214);
+    }
+    .card-D-2-p{
+    color:#8c8c8c;
+    font-size: 14px;
+    height: 60px;
+    margin-bottom: 2rem;
+    }
+    
+    .card-D-2-T-i-1{
+    transition: all 0.4s ease 0s;
+    
+    border: 1px solid #e1e1e1;
+    display: flex;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 400;
+    height: 35px;
+    padding-right:10px;
+    border-radius: 1rem;
+    cursor: pointer;
+    }
+    .card-D-2-T-i-1 p{
+    line-height: 30px;
+    }
+    .card-D-2-T-i-1 span{
+    margin: 5px;
+    background: rgba(0, 0, 0, 0) url("../../../../../public/img/icons.png") no-repeat scroll -11px -318px;
+    height: 25px;
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    width: 30px;
+    }
+    .card-D-2-T-i-1:hover{
+    background-color: rgb(51, 98, 185);
+    color: white;
+    }
+    .card-D-2-T-i-1:hover span{
+    background-position: -11px -353px;
+    }
+    .card-D-2-rating{
+    direction: ltr;
+    display: inline-block;
+    }
+    

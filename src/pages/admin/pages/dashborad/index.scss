@@ -1,0 +1,209 @@
+.admin-dashborad{
+    //background: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    .admin-dashborad-item-avetar{
+    position: relative;
+    & .price{
+        text-align: end;
+    }
+
+    .admin-dashborad-avetar{
+        width: 150px;
+        height: 175px;
+        //background: violet;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        & .admin-dashborad-avetar-title{
+          
+            & p{
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.5;
+                color: #4E97FD;
+            }
+        }
+        .admin-dashborad-avetar-icon{
+            width: 125px;
+            height: 125px;
+            border: 3px #6b84ba8a solid;
+            border-radius: 50%;
+        & button{
+            width: 100%;
+            height: 100%;                
+            padding: 0;
+            & div{
+                width: 100%;
+                height: 100%;
+                color: #3714c4;
+                background-color: #2955c885;
+            }
+        }}
+        } 
+    }
+    & .card-1{
+        width: 100%;  
+        //height: 240px;
+        background-color: white;
+        border: 1px #88888829 solid;
+        border-radius: 10px;
+        overflow: hidden;
+        height: -webkit-fill-available;
+        
+    }
+    & .card-2{
+        width: 100%;  
+        height: 45%;
+        background-color: white;
+        border: 1px #88888829 solid;
+        border-radius: 10px;
+      
+        & .item-small{
+            width: 100%;
+            & h5{
+                font-size: 14px;
+                font-weight: 600;
+                color: #7D879C;
+                line-height: 1.5;
+            }
+
+            & h3{
+                margin: 5px 0;
+            }
+            & .item-small-nbr{
+                color: #7D879C;
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                & span{
+                    margin: 0 1rem;
+                }
+                & .bad{
+                    display: flex;
+                    justify-content: center;
+                    & .icon{
+                        color: red;
+                        transform: rotate(90deg);
+                    } 
+                    & p{
+                        color: red;
+                    }
+                }
+                & .good{
+                    display: flex;
+                    justify-content: center;
+                    & .icon{
+                        color: rgb(24, 169, 24);
+                        transform: rotate(-90deg);
+                    } 
+                    & p{
+                        color: rgb(24, 169, 24);
+                    }
+                }
+            }
+        }
+
+    }
+    & .item-5{
+        width: 47.5%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        & p{
+            color: #7D879C;
+            margin: 0px 0;
+            font-size: 14px;
+
+        }
+    }
+    & .item-10{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;background-color: white;        
+        border-radius: 10px;
+
+    }
+    & .item-3{
+        width: 32%;
+        position: relative;
+
+        & .chart-title{
+            position: absolute;
+            top:-15%;
+            left: 0%;
+            text-align: center;
+            width: 100%;
+        }
+    }
+    & .item-6{
+        width: 64%;
+    }
+    .admin-dashborad-table-1{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        border-radius: 10px;
+        border: 1px #88888829 solid;
+
+        & .admin-dashborad-table-1-header{
+            display: flex;
+            padding: 1rem 2rem;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            border-radius: 10px;
+
+        }
+        & .admin-dashborad-table-1-table{
+            display: table;
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            background-color: transparent;
+
+            & tr td{
+                border: none;
+            }
+            & thead {
+                background-color: #F3F5F9;
+                & tr td{
+                font-size: 14px;
+                font-weight: 600;
+                color: rgb(43, 52, 69);
+            }
+            }
+            & tbody{
+                tr{
+                transition: all 0.4s ease 0s;
+                }
+                & tr:hover{
+                    background-color: #aabedf5e;
+                    cursor: pointer;
+                }
+                & tr td{
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: #7D879C;
+                    border-bottom: 1px solid #E3E9EF;
+                    & img{
+                        width: 40px;
+                        height: 40px;
+                        border: 1px #88888829 solid;
+                        object-fit: cover;
+                    }
+                }
+            }
+            
+        }
+    }
+}

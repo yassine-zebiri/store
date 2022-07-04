@@ -1,0 +1,196 @@
+div::-webkit-scrollbar {
+  width: 7.5px;
+  height: 0;
+}
+
+div::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: #2b3445;
+}
+
+div::-webkit-scrollbar-thumb {
+  background: #cacaca;
+  border-radius: 5px;
+  height: 10vh;
+}
+
+div::-webkit-scrollbar-thumb:hover {
+  background: #556bb398;
+}
+
+.admin-list-arrow-activie {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.admin-boxleft-close {
+  background: linear-gradient(10deg, #142630, #28425f, #2B3445);
+  width: 70px;
+  height: 100vh;
+  position: fixed;
+  z-index: 13;
+  overflow: auto;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  color: white;
+  text-align: center;
+}
+
+.admin-boxleft-close .admin-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  color: white;
+}
+
+.admin-boxleft-close .admin-logo button {
+  color: white;
+}
+
+.admin-boxleft-close .admin-list {
+  padding: 1rem 0;
+}
+
+.admin-boxleft-close .admin-list .admin-list-p {
+  display: none;
+}
+
+.admin-boxleft-close .admin-list .admin-list-item {
+  text-align: center;
+  margin: 0.55rem 0;
+}
+
+.admin-boxleft-close .admin-list .admin-list-item div {
+  background: transparent;
+}
+
+.admin-boxleft-close .admin-list .admin-list-item .css-15v22id-MuiAccordionDetails-root {
+  display: none;
+}
+
+.admin-boxleft-close .admin-list .admin-list-item button {
+  color: white;
+  background: transparent;
+  width: 100%;
+}
+
+.admin-boxleft-close .admin-list .admin-list-item button .MuiAccordionSummary-expandIconWrapper {
+  display: none;
+}
+
+.admin-boxleft-close .admin-list .admin-list-item button .MuiAccordionSummary-content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-boxleft-close .admin-list .admin-list-item button .MuiButton-startIcon {
+  margin: 0;
+}
+
+.admin-boxleft-close .admin-list .admin-list-item button .admin-list-icon {
+  font-size: 1rem;
+}
+
+.admin-boxleft-close .admin-list .admin-list-item button .admin-list-title {
+  display: none;
+}
+
+.admin-boxleft-open {
+  background: linear-gradient(10deg, #142630, #28425f, #2B3445);
+  width: 280px;
+  height: 100vh;
+  position: fixed;
+  z-index: 13;
+  background-color: #2b3445;
+  overflow: auto;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+.admin-boxleft-open .admin-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  color: white;
+}
+
+.admin-boxleft-open .admin-logo button {
+  color: white;
+}
+
+.admin-boxleft-open .admin-list {
+  padding: 1rem;
+}
+
+.admin-boxleft-open .admin-list p {
+  color: white;
+  font-size: 16px;
+}
+
+.admin-boxleft-open .admin-list .admin-list-icon {
+  margin: 0 1rem;
+  font-size: 1rem;
+}
+
+.admin-boxleft-open .admin-list .admin-list-icon-btn {
+  margin: 0 10px;
+  font-size: 1.15rem;
+}
+
+.admin-boxleft-open .admin-list .admin-list-item {
+  color: white;
+  margin: 5px 0;
+}
+
+.admin-boxleft-open .admin-list .admin-list-item button {
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: white;
+}
+
+.admin-boxleft-open .admin-list .admin-list-item button .css-i4bv87-MuiSvgIcon-root {
+  color: aqua;
+}
+
+.admin-boxleft-open .admin-list .admin-list-item button p {
+  font-size: 16px;
+}
+
+.admin-boxleft-open .admin-list .admin-list-item .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  background-color: transparent;
+  color: white;
+}
+
+.admin-boxleft-open .admin-list .admin-list-item .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+  padding: 0;
+}
+
+.admin-boxleft-open .admin-list .admin-list-item .css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+  margin: 0;
+}
+
+.admin-boxleft-open .admin-list .admin-list-item .css-o4b71y-MuiAccordionSummary-content {
+  margin: 0;
+}
+
+.admin-boxleft-open .admin-list .admin-list-item .css-15v22id-MuiAccordionDetails-root {
+  padding: 0 0 0 1rem;
+}
+/*# sourceMappingURL=index.css.map */

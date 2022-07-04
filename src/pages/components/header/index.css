@@ -1,0 +1,224 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0%;
+  align-items: center;
+  z-index: 2;
+  -webkit-box-shadow: 0px 1px 6px 3px #00000026;
+          box-shadow: 0px 1px 6px 3px #00000026;
+}
+
+.header .div {
+  width: 30%;
+}
+
+.header .logo {
+  padding: 1rem;
+}
+
+.header .logo a {
+  text-decoration: none;
+  color: rgba(59, 59, 59, 0.726);
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.header .logo a:hover {
+  color: #0d6efd;
+}
+
+.header .inputSearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.header .inputSearch input {
+  height: 30px;
+  width: 80%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  font-family: inherit;
+  -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.header .inputSearch input:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #3852b9d5;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem #0033ff33;
+          box-shadow: 0 0 0 0.25rem #0033ff33;
+}
+
+.header .inputSearch .item-search {
+  width: 80%;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  top: 2rem;
+  padding: 0;
+  z-index: 1;
+  overflow-y: scroll;
+  border-radius: 10px;
+  border: 1px rgba(92, 92, 92, 0.275) solid;
+}
+
+.header .inputSearch .item-search li {
+  padding: 0;
+  text-align: center;
+}
+
+.header .mybutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .mybutton div {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+}
+
+.header .mybutton div a:hover {
+  color: #0d6efd;
+}
+
+.header .mybutton div:hover {
+  color: #0d6efd;
+}
+
+.header .mybutton div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #333;
+}
+
+.header .mybutton .arrow-icon {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.header .mybutton .arrow-icon-activie {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  color: #6c7ece;
+}
+
+.header .mybutton .list-support {
+  position: absolute;
+  background-color: #fafafa;
+  -webkit-box-shadow: 0px 2px 5px 1px #5656569c;
+          box-shadow: 0px 2px 5px 1px #5656569c;
+  width: 200px;
+  top: 2rem;
+  left: -4rem;
+}
+
+.header .mybutton .list-support a {
+  display: block;
+  border-top: 1px solid rgba(117, 117, 117, 0.438);
+  padding: .75rem .25rem;
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  font-weight: 400;
+  font-size: .85rem;
+}
+
+.header .mybutton .list-support a:hover {
+  color: blue;
+  background-color: #e8e8e8;
+}
+
+.header .mybutton .list-account {
+  display: block;
+  position: absolute;
+  background-color: #fafafa;
+  -webkit-box-shadow: 0px 2px 5px 1px #5656569c;
+          box-shadow: 0px 2px 5px 1px #5656569c;
+  width: 200px;
+  top: 2rem;
+  left: -4rem;
+  z-index: 1;
+}
+
+.header .mybutton .list-account main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5rem 0;
+  padding: 0 1rem;
+}
+
+.header .mybutton .list-account main button {
+  width: 100%;
+  min-width: 190px;
+}
+
+.header .mybutton .list-account main .hr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  font-size: 12px;
+  color: #333;
+}
+
+.header .mybutton .list-account main .hr hr {
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

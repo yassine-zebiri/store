@@ -1,0 +1,126 @@
+.Home {
+  padding: 6rem 1rem;
+  width: 1200px;
+  margin: auto;
+}
+
+.main-row {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.75rem;
+}
+
+.main-row .main-salider {
+  width: 60%;
+}
+
+.main-row .main-salider .box-1 {
+  margin-top: 1rem;
+  height: 142px;
+  width: 100%;
+  background-color: #fafafa;
+  border: 1px rgba(51, 51, 51, 0.174) solid;
+  border-radius: 10px;
+}
+
+.main-row .main-salider .main-salider-s .item {
+  background-color: blue;
+}
+
+.main-row .main-salider .main-salider-s .item img {
+  width: 100%;
+}
+
+.main-row .box {
+  width: 17.5%;
+  height: 450px;
+  background-color: white;
+  border: 1px rgba(51, 51, 51, 0.227) solid;
+  border-radius: 0.75rem;
+  padding: 0 0.5rem;
+}
+
+.main-row .box .classes {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.main-row .box .classes li {
+  list-style: none;
+  padding: 0.5rem 0;
+  margin: 1px 0;
+  font-size: 13px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.main-row .box .classes li:hover {
+  background-color: #e8e8e8ad;
+}
+
+.main-row .box .classes li a {
+  text-decoration: none;
+  color: #333;
+  width: 100%;
+}
+
+.main-row .box .classes li a:hover {
+  color: blue;
+}
+
+.main-row .box-2 {
+  width: 17.5%;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-row .box-2 .login {
+  background-color: white;
+  width: 100%;
+  height: 45%;
+  border: 1px rgba(51, 51, 51, 0.144) solid;
+  border-radius: 0.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-row .box-2 .login div {
+  margin: 0.25rem;
+}
+
+.main-row .box-2 .login div button {
+  margin: 0 2.5px;
+}
+
+.main-row .box-2 .login div p {
+  font-size: 14px;
+  color: #333;
+}
+/*# sourceMappingURL=index.css.map */

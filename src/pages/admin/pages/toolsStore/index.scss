@@ -1,0 +1,219 @@
+.admin-tools-store-box-right{
+    width: 240px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    right: 5px;
+    float: right;
+    direction: rtl;
+
+
+    & .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+        color: #333;
+        box-shadow: 1px -1px 0px -1px #0f0f0f1a;
+        width: 100%;
+        background-color: transparent;
+        & .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+            min-height: auto;
+            width: 100%;
+            & .css-yw020d-MuiAccordionSummary-expandIconWrapper{
+            color: #4ea8e8;
+
+            }
+        }
+        & li{
+            width: 100%;
+        }
+        & .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded{
+            min-height: auto;
+        } 
+        & .css-15v22id-MuiAccordionDetails-root{
+            padding: 0 7.5px;
+        }
+    }
+    & .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+        padding: 0;
+        & .css-o4b71y-MuiAccordionSummary-content{
+            margin: 0;
+        }
+    }
+
+}
+.admin-tools-box-margin-right{
+    margin-right: 15rem!important;
+    //background-color: rgb(84, 150, 80);
+    & .admin-tools-store-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & .admin-tools-store-header-salider{
+            width: 750px;
+        }
+        & .admin-tools-store-header-categories{
+            width: 750px;
+            & .admin-tools-store-header-categories-contant{
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                flex-wrap: wrap;                    
+                gap: 0.5rem;
+                justify-content: flex-end;
+                padding: 0.85rem;
+                & li{
+                    //width:22.5%;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: 100;
+                    color: #333;
+                    list-style: none;
+                }
+            }
+        }
+    }
+
+    & .admin-tools-store-rows{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & .admin-tools-store-rows-row{
+            display: flex;
+            background-color: rgb(255, 255, 255);
+            margin-top: 1rem;
+            padding: 1rem 4rem;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+    & .admin-tools-box-show-salider-box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 3rem 0;
+       // background-color: red;
+        direction: rtl;
+        & .admin-tools-box-show-salider-card{
+            width: 47.5%;
+            height: auto;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px rgba(121, 121, 121, 0.188) solid;
+            & .admin-tools-box-show-salider-card-header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0.25rem 0.5rem ;
+            }
+            & .admin-tools-box-show-salider-card-body{
+                padding: 0 2px;
+                & img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    & .admin-tools-store-create-salider{
+        display: flex;
+        background-color: #ffffff;
+        width: 100%;
+        padding: 1rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 4rem 0rem;
+        direction: rtl;
+        & .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+            width: 100%;
+        }
+        & .item-5{
+            width: 47.5%;
+        }
+        & .item-10{
+            width: 100%;
+        }
+        & .admin-tools-store-create-salider-upload-img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px #1976d2 dashed;
+            border-radius: 5px;
+            background: linear-gradient(352deg, #ffffff0d, #678db836);
+            & img{
+                width: 100%;
+                cursor: pointer;
+            }
+        }
+    }
+    & .admin-tools-rows{
+        //background-color: rgb(208, 117, 117);
+        //display: flex;
+        & .admin-tools-rows-cards{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 3rem 1rem;
+            background-color: rgb(252, 252, 252);
+            padding: 2rem 0.25rem;
+            & .admin-tools-rows-card-add{
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border: 2px #1976d2 dashed;
+                border-radius: 15px;
+                background: linear-gradient(352deg, #ffffff0d, #678db836);
+                & .css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+                    color: #1976d2;
+                }
+                & p{
+                    color: #1976d2;
+                }
+            }
+            & .admin-tools-rows-card{
+                width: 200px;
+                //height: 100px;
+                background:linear-gradient(50deg,#e7eff740,rgb(248, 248, 248));
+                border: 1px rgba(192, 192, 192, 0.327) solid;
+                & .admin-tools-rows-card-item{
+                    width: 100%;
+                    //height: 10px;
+                    //background-color: #4ea8e8;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 100%;
+                    
+                    & img{
+                        width: 100%;
+                    }
+                    & .admin-header{
+                        padding: 4px;
+                        & .css-i4bv87-MuiSvgIcon-root{
+                            font-size: 1.2rem;
+                        }
+                    }
+                    & .admin-tools-rows-card-item-body{
+                        //background-color: rgb(188, 188, 188);
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        & .css-ryrseu-MuiRating-root{
+                            font-size: 1.15rem;
+                        }
+                        & .title{
+                            color: #333;
+                            font-weight: 100;
+                        }
+                        & .price{
+                            color: rgba(101, 101, 101, 0.962);
+                            margin: 0 0 0.5rem 0;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

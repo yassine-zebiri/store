@@ -1,0 +1,50 @@
+.admin-create-product-form {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 7.5px;
+}
+
+.admin-create-product-form .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+
+.admin-create-product-form .item-5 {
+  width: 47.5%;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.admin-create-product-form .item-10 {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.admin-create-product-form .admin-create-preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-create-product-form .admin-create-preview img {
+  width: 150px;
+  border: 1px rgba(148, 145, 145, 0.674) solid;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,320 @@
+.admin-tools-store-box-right {
+  width: 240px;
+  height: 100vh;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 5px;
+  float: right;
+  direction: rtl;
+}
+
+.admin-tools-store-box-right .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  color: #333;
+  -webkit-box-shadow: 1px -1px 0px -1px #0f0f0f1a;
+          box-shadow: 1px -1px 0px -1px #0f0f0f1a;
+  width: 100%;
+  background-color: transparent;
+}
+
+.admin-tools-store-box-right .css-1elwnq4-MuiPaper-root-MuiAccordion-root .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+  min-height: auto;
+  width: 100%;
+}
+
+.admin-tools-store-box-right .css-1elwnq4-MuiPaper-root-MuiAccordion-root .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root .css-yw020d-MuiAccordionSummary-expandIconWrapper {
+  color: #4ea8e8;
+}
+
+.admin-tools-store-box-right .css-1elwnq4-MuiPaper-root-MuiAccordion-root li {
+  width: 100%;
+}
+
+.admin-tools-store-box-right .css-1elwnq4-MuiPaper-root-MuiAccordion-root .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: auto;
+}
+
+.admin-tools-store-box-right .css-1elwnq4-MuiPaper-root-MuiAccordion-root .css-15v22id-MuiAccordionDetails-root {
+  padding: 0 7.5px;
+}
+
+.admin-tools-store-box-right .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+  padding: 0;
+}
+
+.admin-tools-store-box-right .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root .css-o4b71y-MuiAccordionSummary-content {
+  margin: 0;
+}
+
+.admin-tools-box-margin-right {
+  margin-right: 15rem !important;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-header .admin-tools-store-header-salider {
+  width: 750px;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-header .admin-tools-store-header-categories {
+  width: 750px;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-header .admin-tools-store-header-categories .admin-tools-store-header-categories-contant {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 0.5rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0.85rem;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-header .admin-tools-store-header-categories .admin-tools-store-header-categories-contant li {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+  color: #333;
+  list-style: none;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-rows {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-rows .admin-tools-store-rows-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  margin-top: 1rem;
+  padding: 1rem 4rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-tools-box-margin-right .admin-tools-box-show-salider-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 3rem 0;
+  direction: rtl;
+}
+
+.admin-tools-box-margin-right .admin-tools-box-show-salider-box .admin-tools-box-show-salider-card {
+  width: 47.5%;
+  height: auto;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px rgba(121, 121, 121, 0.188) solid;
+}
+
+.admin-tools-box-margin-right .admin-tools-box-show-salider-box .admin-tools-box-show-salider-card .admin-tools-box-show-salider-card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.25rem 0.5rem;
+}
+
+.admin-tools-box-margin-right .admin-tools-box-show-salider-box .admin-tools-box-show-salider-card .admin-tools-box-show-salider-card-body {
+  padding: 0 2px;
+}
+
+.admin-tools-box-margin-right .admin-tools-box-show-salider-box .admin-tools-box-show-salider-card .admin-tools-box-show-salider-card-body img {
+  width: 100%;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-create-salider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 4rem 0rem;
+  direction: rtl;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-create-salider .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-create-salider .item-5 {
+  width: 47.5%;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-create-salider .item-10 {
+  width: 100%;
+}
+
+.admin-tools-box-margin-right .admin-tools-store-create-salider .admin-tools-store-create-salider-upload-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px #1976d2 dashed;
+  border-radius: 5px;
+  background: linear-gradient(352deg, #ffffff0d, #678db836);
+}
+
+.admin-tools-box-margin-right .admin-tools-store-create-salider .admin-tools-store-create-salider-upload-img img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 3rem 1rem;
+  background-color: #fcfcfc;
+  padding: 2rem 0.25rem;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card-add {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px #1976d2 dashed;
+  border-radius: 15px;
+  background: linear-gradient(352deg, #ffffff0d, #678db836);
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card-add .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  color: #1976d2;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card-add p {
+  color: #1976d2;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card {
+  width: 200px;
+  background: linear-gradient(50deg, #e7eff740, #f8f8f8);
+  border: 1px rgba(192, 192, 192, 0.327) solid;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card .admin-tools-rows-card-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card .admin-tools-rows-card-item img {
+  width: 100%;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card .admin-tools-rows-card-item .admin-header {
+  padding: 4px;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card .admin-tools-rows-card-item .admin-header .css-i4bv87-MuiSvgIcon-root {
+  font-size: 1.2rem;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card .admin-tools-rows-card-item .admin-tools-rows-card-item-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card .admin-tools-rows-card-item .admin-tools-rows-card-item-body .css-ryrseu-MuiRating-root {
+  font-size: 1.15rem;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card .admin-tools-rows-card-item .admin-tools-rows-card-item-body .title {
+  color: #333;
+  font-weight: 100;
+}
+
+.admin-tools-box-margin-right .admin-tools-rows .admin-tools-rows-cards .admin-tools-rows-card .admin-tools-rows-card-item .admin-tools-rows-card-item-body .price {
+  color: rgba(101, 101, 101, 0.962);
+  margin: 0 0 0.5rem 0;
+  font-weight: bold;
+}
+/*# sourceMappingURL=index.css.map */

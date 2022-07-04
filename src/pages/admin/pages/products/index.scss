@@ -1,0 +1,97 @@
+.admin-product-table{
+    table{
+        direction: rtl;
+        background-color: rgb(255, 255, 255);
+        border-collapse: collapse;
+        width: 100%;
+        user-select: none;    
+    & tr td{
+        width: 20%;
+        padding: 8px;
+        text-align: center;
+        border: none;
+        border-bottom: 1px solid #ddd;
+        margin: 0;
+    }
+    & tr{
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+    }
+    & tbody tr:hover{
+        background-color: #aabedf5e;
+    }
+    & .admin-product-div-search{
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        background-color: #f6f9fc;
+        & input{
+            color: #AEB4BE;
+        }
+        & svg{
+            padding: 0 0 0 0.5rem;
+        }
+        & .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+            border: none;
+        }
+    }
+    .admin-table-categorie-item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1rem;
+        .admin-table-categorie-item-img{
+            width: 40px;
+        }
+    }
+
+
+    .admin-table-product-item{
+        //background-color: red;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 1rem;
+
+        & .admin-table-product-item-img{
+            border: 1px solid rgba(172, 172, 172, 0.092);
+            width: 42px;
+            padding: 1px;
+            border-radius: 5px;
+        }
+        & .admin-table-product-item-div{
+            text-align: start;
+            margin: 0 1rem;
+            .admin-table-product-item-div-p-name{
+                font-size: 15px;
+                font-weight: 400;
+                margin: 0;
+            }
+            .admin-table-product-item-div-span-id{
+                color: rgb(159, 159, 159);
+                font-size: 13px;
+                margin: 0px;
+            }
+        }
+    }
+    }
+}
+.admin-product-div-search{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 325px;
+    margin: 1rem 0;
+    & input{
+        color: #AEB4BE;
+    }
+    & svg{
+        padding: 0 0 0 0.5rem;
+    }
+    & .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+        border: none;
+    }
+}

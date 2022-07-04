@@ -1,0 +1,278 @@
+.admin-dashborad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2rem;
+}
+
+.admin-dashborad .admin-dashborad-item-avetar {
+  position: relative;
+}
+
+.admin-dashborad .admin-dashborad-item-avetar .price {
+  text-align: end;
+}
+
+.admin-dashborad .admin-dashborad-item-avetar .admin-dashborad-avetar {
+  width: 150px;
+  height: 175px;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.admin-dashborad .admin-dashborad-item-avetar .admin-dashborad-avetar .admin-dashborad-avetar-title p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #4E97FD;
+}
+
+.admin-dashborad .admin-dashborad-item-avetar .admin-dashborad-avetar .admin-dashborad-avetar-icon {
+  width: 125px;
+  height: 125px;
+  border: 3px #6b84ba8a solid;
+  border-radius: 50%;
+}
+
+.admin-dashborad .admin-dashborad-item-avetar .admin-dashborad-avetar .admin-dashborad-avetar-icon button {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.admin-dashborad .admin-dashborad-item-avetar .admin-dashborad-avetar .admin-dashborad-avetar-icon button div {
+  width: 100%;
+  height: 100%;
+  color: #3714c4;
+  background-color: #2955c885;
+}
+
+.admin-dashborad .card-1 {
+  width: 100%;
+  background-color: white;
+  border: 1px #88888829 solid;
+  border-radius: 10px;
+  overflow: hidden;
+  height: -webkit-fill-available;
+}
+
+.admin-dashborad .card-2 {
+  width: 100%;
+  height: 45%;
+  background-color: white;
+  border: 1px #88888829 solid;
+  border-radius: 10px;
+}
+
+.admin-dashborad .card-2 .item-small {
+  width: 100%;
+}
+
+.admin-dashborad .card-2 .item-small h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #7D879C;
+  line-height: 1.5;
+}
+
+.admin-dashborad .card-2 .item-small h3 {
+  margin: 5px 0;
+}
+
+.admin-dashborad .card-2 .item-small .item-small-nbr {
+  color: #7D879C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.admin-dashborad .card-2 .item-small .item-small-nbr span {
+  margin: 0 1rem;
+}
+
+.admin-dashborad .card-2 .item-small .item-small-nbr .bad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-dashborad .card-2 .item-small .item-small-nbr .bad .icon {
+  color: red;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.admin-dashborad .card-2 .item-small .item-small-nbr .bad p {
+  color: red;
+}
+
+.admin-dashborad .card-2 .item-small .item-small-nbr .good {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-dashborad .card-2 .item-small .item-small-nbr .good .icon {
+  color: #18a918;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.admin-dashborad .card-2 .item-small .item-small-nbr .good p {
+  color: #18a918;
+}
+
+.admin-dashborad .item-5 {
+  width: 47.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.admin-dashborad .item-5 p {
+  color: #7D879C;
+  margin: 0px 0;
+  font-size: 14px;
+}
+
+.admin-dashborad .item-10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.admin-dashborad .item-3 {
+  width: 32%;
+  position: relative;
+}
+
+.admin-dashborad .item-3 .chart-title {
+  position: absolute;
+  top: -15%;
+  left: 0%;
+  text-align: center;
+  width: 100%;
+}
+
+.admin-dashborad .item-6 {
+  width: 64%;
+}
+
+.admin-dashborad .admin-dashborad-table-1 {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px #88888829 solid;
+}
+
+.admin-dashborad .admin-dashborad-table-1 .admin-dashborad-table-1-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.admin-dashborad .admin-dashborad-table-1 .admin-dashborad-table-1-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: transparent;
+}
+
+.admin-dashborad .admin-dashborad-table-1 .admin-dashborad-table-1-table tr td {
+  border: none;
+}
+
+.admin-dashborad .admin-dashborad-table-1 .admin-dashborad-table-1-table thead {
+  background-color: #F3F5F9;
+}
+
+.admin-dashborad .admin-dashborad-table-1 .admin-dashborad-table-1-table thead tr td {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2b3445;
+}
+
+.admin-dashborad .admin-dashborad-table-1 .admin-dashborad-table-1-table tbody tr {
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.admin-dashborad .admin-dashborad-table-1 .admin-dashborad-table-1-table tbody tr:hover {
+  background-color: #aabedf5e;
+  cursor: pointer;
+}
+
+.admin-dashborad .admin-dashborad-table-1 .admin-dashborad-table-1-table tbody tr td {
+  font-size: 13px;
+  font-weight: 600;
+  color: #7D879C;
+  border-bottom: 1px solid #E3E9EF;
+}
+
+.admin-dashborad .admin-dashborad-table-1 .admin-dashborad-table-1-table tbody tr td img {
+  width: 40px;
+  height: 40px;
+  border: 1px #88888829 solid;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=index.css.map */

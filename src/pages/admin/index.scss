@@ -1,0 +1,77 @@
+.Admin{
+    background-color: #F6F9FC;
+    margin: 0;
+    padding: 0;
+    //display: flex;
+    .admin-boxright{
+       // background-color: rgba(205, 89, 89, 0.737);
+        margin-left: 70px;
+        transition: all 1s ease 0s;
+    }
+    .admin-box-margin{
+        margin-left: 280px;
+    }
+    .admin-card-contant{
+       // background-color: red;
+        padding: 4rem 4rem 4rem 4rem;
+        max-width: 1200px;
+        margin: auto;
+        position: relative;
+    }
+    .admin-categorie-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        & .btn{
+            font-size: 17px;
+            font-weight: 600;
+            letter-spacing:1.1px
+        }
+
+        & .admin-categorie-form{
+            position: absolute;
+            background-color: #fff;
+            border: 1px rgba(84, 84, 84, 0.537) solid;
+            border-radius: 5px;
+            z-index: 999;
+            padding: 1rem 2rem;
+            left: 40%;
+            display: flex;
+            width: 25%;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+            & .icon{
+                position: absolute;
+                top: 0px;
+                right: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+table{
+    border-collapse: collapse;
+    background-color: rgb(237, 235, 235);
+    tbody tr td{
+        color: rgb(0, 0, 0);  
+    }
+    tr td{
+        border: 1px solid rgba(100, 100, 100, 0.699);
+        text-align: center;
+        padding:0.75rem 1.25rem;
+    }
+}
+.box{
+
+    direction:rtl;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap:1rem;
+    .card{
+        background-color: white;
+    }
+}
